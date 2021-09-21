@@ -7,7 +7,7 @@
     <parent>
         <groupId>gg.solarmc</groupId>
         <artifactId>solar-parent</artifactId>
-        <version>0.6.2</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>authplugin</artifactId>
@@ -16,6 +16,8 @@
     <properties>
         <arimapi.version>0.24.7</arimapi.version>
         <mockito.version>3.12.4</mockito.version>
+
+        <solar-parent.skip-javadoc>true</solar-parent.skip-javadoc>
     </properties>
 
     <dependencies>
@@ -98,16 +100,8 @@
 
     <repositories>
         <repository>
-            <id>solar-releases</id>
-            <url>https://mvn-repo.solarmc.gg/releases</url>
-        </repository>
-        <repository>
-            <id>arim-mvn-lgpl3</id>
-            <url>https://mvn-repo.arim.space/lesser-gpl3</url>
-        </repository>
-        <repository>
-            <id>arim-mvn-gpl3</id>
-            <url>https://mvn-repo.arim.space/gpl3</url>
+            <id>solar-repo</id>
+            <url>https://repo.solarmc.gg/mvn</url>
         </repository>
     </repositories>
 </project>
