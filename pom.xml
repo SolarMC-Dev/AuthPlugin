@@ -42,7 +42,7 @@
         <dependency>
             <groupId>space.arim.injector</groupId>
             <artifactId>injector</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>gg.solarmc</groupId>
@@ -100,6 +100,14 @@
         <repository>
             <id>solar-releases</id>
             <url>https://mvn-repo.solarmc.gg/releases</url>
+        </repository>
+        <repository>
+            <id>arim-mvn-lgpl3</id>
+            <url>https://mvn-repo.arim.space/lesser-gpl3</url>
+        </repository>
+        <repository>
+            <id>arim-mvn-gpl3</id>
+            <url>https://mvn-repo.arim.space/gpl3</url>
         </repository>
     </repositories>
 </project>
