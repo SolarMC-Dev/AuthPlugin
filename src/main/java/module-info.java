@@ -23,6 +23,7 @@ module gg.solarmc.authplugin {
     exports gg.solarmc.authplugin.command to space.arim.injector, gg.solarmc.authplugin.test;
     exports gg.solarmc.authplugin.config to space.arim.injector, gg.solarmc.authplugin.test;
     exports gg.solarmc.authplugin.listener to space.arim.injector, gg.solarmc.authplugin.test;
+    opens gg.solarmc.authplugin to com.velocitypowered.api;
     opens gg.solarmc.authplugin.config to space.arim.dazzleconf;
     opens gg.solarmc.authplugin.listener to com.velocitypowered.api;
 
